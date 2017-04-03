@@ -1,13 +1,10 @@
 
+Описание
 
-Любые строки необходимо брать в двойные или одинарные кавычки. Если внутри строки требуется оставить одну или несколько кавычек, то можно комбинировать типы кавычек или добавить перед кавычкой слэш.
+Значением может выступать целое число, содержащее цифры от 0 до 9 и десятичная дробь, в которой целая и десятичная часть разделяются точкой. Если число начинается с нуля, то его можно опустить (.5 вместо 0.5).
 Синтаксис
 
-Свойство: 'первая "строка"'
-Свойство: "первая 'строка'"
-Свойство: "первая \"строка\""
-
-В первой строке применяются одинарные кавычки в сочетании с двойными. Во второй строке все с точностью до наоборот, в третьей же строке используются только двойные кавычки, но внутренние экранированы с помощью слэша.
+Свойство: <число>
 
 Пример
 
@@ -17,13 +14,17 @@ HTML5CSS2.1IECrOpSaFx
 <html>
  <head>
   <meta charset="utf-8">
-  <title>Строка</title>
+  <title>Числа</title>
   <style>
-   .new { content: " обновлено"; }
+   h1 { line-height: 1.1; } 
+   p { line-height: 2; }
   </style>
- </head>
- <body>
-  <p class="new">Тег DEL используется для выделения текста, который 
-     был удален в новой версии документа.</p> 
+ </head> 
+ <body> 
+  <h1>Duis te feugifacilisi</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem 
+  nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. 
+  Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper suscipit 
+  lobortis nisl ut aliquip ex ea commodo consequat.</p> 
  </body>
 </html>
