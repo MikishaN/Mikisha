@@ -18,3 +18,35 @@ http://htmlbook.ru/files/images/layout2/6-02.png
    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
   <![endif]-->
  </head>
+ 
+Пример 2
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>min-width</title>
+  <style>
+   #container {
+    min-width: 420px; /* Минимальная ширина контейнера */
+   }
+   #col1 {
+    background-color: #fc0; /* Цвет фона колонки */
+    padding: 5px; /* Поля вокруг текста */
+    float: left; /* Обтекание по правому краю */
+    width: 150px; /* Ширина левой колонки */
+   }
+   #col2  {
+    background-color: #c0c0c0; /* Цвет фона колонки */
+    padding: 5px; /* Поля вокруг текста */
+    width: 250px; /* Ширина правой колонки */
+    float: left; /* Обтекание по правому краю */
+   }
+  </style>
+ </head>
+ <body>
+  <div id="container">
+   <div id="col1">Колонка 1</div>
+   <div id="col2">Колонка 2</div>
+  </div>
+ </body>
+</html>
