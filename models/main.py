@@ -1,4 +1,4 @@
-from mongo.models.product import MongoConnect
+from models.product import MongoConnect
 
 if __name__ == '__main__':
     prod = MongoConnect()
